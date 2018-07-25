@@ -1,0 +1,9 @@
+@value boxWidth: 100px;
+@value boxHeight: 50px;
+@value borderSize: 3px;
+
+/* Calculations for header Buttons */
+@value pathWidth: calc(boxWidth + 2*borderSize);
+@value pathHeight: calc(boxHeight + 12px);
+@value pathBorderLeft: calc((boxWidth + 2*borderSize)/2);
+@value pathLeft: calc(-1*borderSize);
