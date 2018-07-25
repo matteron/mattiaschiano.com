@@ -4,7 +4,6 @@
 @value borderSize from constants;
 
 .header {
-    display: flex;
     position: relative;
     justify-content: flex-start;
     background-color: xo-Black;
@@ -13,9 +12,16 @@
     border-bottom: xo-Blue borderSize solid;
     text-align: center;
 }
+.container {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    display: flex;
+    margin: 0 auto;
+    max-width: 960px;
+}
 .h1 {
-    margin-bottom: 0;
-    margin-left: 15%;
+    margin: 0 3rem 0 1rem;
 }
 .title {
     display: block;
