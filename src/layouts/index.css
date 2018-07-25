@@ -1,3 +1,6 @@
+@value colors: "../styles/constants/colors.css";
+@value xo-White, xo-Offwhite, xo-Black, xo-Blue, xo-Red from colors;
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -38,8 +41,10 @@ template {
   display: none;
 }
 a {
-  background-color: transparent;
+  color: xo-Black;
   -webkit-text-decoration-skip: objects;
+  text-decoration: none;
+  
 }
 a:active,
 a:hover {

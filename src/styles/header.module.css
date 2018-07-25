@@ -1,5 +1,5 @@
 @value colors: "./constants/colors.css";
-@value xo-White, xo-Black, xo-Blue, xo-Red from colors;
+@value xo-White, xo-Offwhite, xo-Black, xo-Blue, xo-Red from colors;
 @value constants: "./constants/headerConstants.css";
 @value borderSize from constants;
 
@@ -11,6 +11,7 @@
     border-top: xo-Red borderSize solid;
     border-bottom: xo-Blue borderSize solid;
     text-align: center;
+    margin-bottom: 1rem;
 }
 .container {
     position: relative;
@@ -26,6 +27,6 @@
 .title {
     display: block;
     position: relative;
-    color: xo-White;
+    color: xo-Offwhite;
     text-decoration: none;
 }
