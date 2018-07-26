@@ -17,7 +17,7 @@ class BlogPostTemplate extends React.Component {
           <small>{post.frontmatter.date}</small>
         </div>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr />
+        <hr id="xobar"/>
 
         <ul>
           {previous && (

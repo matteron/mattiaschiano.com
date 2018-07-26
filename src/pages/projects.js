@@ -8,8 +8,9 @@ class ProjectsPage extends React.Component {
 
     return (
       <div>
-        <h1>Projects</h1>
-        <p>This is a colleciton of posts involving project I've been working on.</p>
+        <h1 style={{marginBottom: '0'}}>Projects</h1>
+        <small>A colleciton of posts involving projects I've been working on.</small>
+        <hr/>
         {posts.map(({node}) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (

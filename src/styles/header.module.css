@@ -10,7 +10,7 @@
     border-top: xo-Red borderSize solid;
     border-bottom: xo-Blue borderSize solid;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 .container {
     position: relative;
