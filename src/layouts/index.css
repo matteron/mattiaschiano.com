@@ -43,7 +43,6 @@ template {
 a {
   color: xo-Black;
   -webkit-text-decoration-skip: objects;
-  
 }
 a:active,
 a:hover {
@@ -202,7 +201,7 @@ html {
 }
 body {
   color: xo-Black;
-  background-color: xo-Offwhite;
+  background-color: xo-White;
   font-family: Lato;
   font-weight: normal;
   word-wrap: break-word;
@@ -493,9 +492,9 @@ hr::after {
   content: 'xo';
   display: inline-block;
   position: relative;
-  top: -0.84em;
+  top: -1.6ex;
   padding: 0 0.2em;
-  background-color: xo-Offwhite;
+  background-color: xo-White;
 }
 
 address {
