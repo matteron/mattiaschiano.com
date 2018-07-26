@@ -22,7 +22,10 @@
     "gatsby-transformer-sharp": "^1.6.27",
     "lodash": "^4.17.10",
     "prismjs": "^1.15.0",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "typeface-karla": "0.0.54",
+    "typeface-lato": "0.0.54",
+    "typeface-rubik": "0.0.54"
   },
   "keywords": [
     "mattia",

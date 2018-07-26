@@ -4,6 +4,9 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/header'
 import './index.css'
+import 'typeface-lato'
+import 'typeface-karla'
+import 'typeface-rubik'
 
 const Layout = ({ children, data }) => (
   <div>

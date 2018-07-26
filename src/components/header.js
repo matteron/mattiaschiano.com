@@ -6,12 +6,14 @@ import HeaderButton from './headerButton'
 const Header = ({ siteTitle }) => (
   <div className = {styles.header}>
       <div className = {styles.container}>
-      <h1 className = {styles.h1}>
-        <Link to="/" className = {styles.title}>{siteTitle}</Link>
-      </h1>
-      <HeaderButton text="about" link="/about/"/>
-      <HeaderButton text="projects" link="/projects/"/>
-      <HeaderButton text="resume" link="/resume"/>
+        <h1 className = {styles.h1}>
+          <Link to="/" className = {styles.title}>{siteTitle}</Link>
+        </h1>
+        <div className = {styles.buttons}>
+          <HeaderButton text="about" link="/about/"/>
+          <HeaderButton text="projects" link="/projects/"/>
+          <HeaderButton text="resume" link="/resume"/>
+        </div>
     </div>
   </div>
 )

@@ -1,15 +1,15 @@
 @value colors: "./constants/colors.css";
 @value constants: "./constants/headerConstants.css";
-@value xo-White, xo-Black, xo-Blue, xo-Red from colors;
+@value xo-White, xo-Offwhite, xo-Black, xo-Blue, xo-Red from colors;
 @value boxWidth, boxHeight, borderSize, pathWidth, pathHeight, pathBorderLeft, pathLeft from constants;
 
 .buttonFace {
     background-color: xo-Black;
     width: boxWidth;
     height: boxHeight;
-    color: xo-White;
     position: relative;
     margin: 0px borderSize 0px borderSize;
+    font-family: 'Rubik'
 }
 
 .buttonFace::before, .buttonFace::after {
