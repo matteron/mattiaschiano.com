@@ -16,7 +16,8 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: `Hi I'm Mattia Schiano, this is a website I made.` },
         { name: 'keywords', content: 'mattia, schiano, .com' },
         { name: 'author', content: 'Mattia Schiano'},
-        { name: 'viewport', content: `width=device-width, initial-scale=1.0`}
+        { name: 'viewport', content: `width=device-width, initial-scale=1.0`},
+        { name: "google-site-verification", content: 'WsjJk3Cz4KHAps8-DbcfkiB089OAaTmFb0Hm1-fDf8A'}
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
