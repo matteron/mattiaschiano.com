@@ -9,6 +9,10 @@ html {
 body {
   margin: 0;
 }
+::selection {
+  background: xo-Red;
+  color: xo-White;
+}
 article,
 aside,
 details,
@@ -49,11 +53,11 @@ a:hover {
   outline-width: 0;
 }
 #blogLink {
-  transition: text-decoration-color 0.5s ease;
+  transition: text-decoration 0.5s ease;
   text-decoration-color: xo-Offwhite;
 }
 #blogLink:hover {
-  transition: text-decoration-color 0.5s ease;
+  transition: text-decoration 0.5s ease;
   text-decoration-color: xo-Black;
 }
 abbr[title] {
