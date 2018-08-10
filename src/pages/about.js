@@ -6,7 +6,7 @@ const AboutPage = ({data}) => (
     <Helmet title = {`about | ${data.site.siteMetadata.title}`}/>
     <h1 style={{marginBottom: '0'}}>About</h1>
     <hr style = {{width: '58px', borderRightWidth: '58px'}}/>
-    <p>I'm a pretty cool guy who doesn't afraid of anything</p>
+    <p>Computer scientist by trade, who's really trying to get into industrial design.</p>
   </div>
 )
 
