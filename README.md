@@ -1,2 +1,3 @@
 # mattiaschiano.com
-Personal WebSite
+Older personal website.
+Replaced with [new site](https://github.com/matteron/homepage)
